@@ -16,4 +16,4 @@ jobs:
 
       - name: Desplegar a Surge
       
-        run: surge ./ --domain rafa-itla-prueba.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ --domain rafa-itla-2026-proyecto-final.surge.sh. --token ${{ secrets.SURGE_TOKEN }}
