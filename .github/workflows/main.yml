@@ -15,5 +15,5 @@ jobs:
         run: npm install -g surge
 
       - name: Desplegar a Surge
-        # IMPORTANTE: Cambia 'rafa-itla-prueba.surge.sh' por un nombre que tú quieras
+      
         run: surge ./ --domain rafa-itla-prueba.surge.sh --token ${{ secrets.SURGE_TOKEN }}
